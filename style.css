@@ -10,7 +10,8 @@
 
 body{
     background: linear-gradient(45deg, #190361 0%, #B0F 100%);
-    background-size: cover;
+    animation: gradient 10s ease infinite;
+    background-size: 200% 200%;
     height: 100vh;
     display: grid;
     place-items: center;
@@ -79,6 +80,18 @@ font-weight: 700;
     75% {margin-left: -5px;}
     100% {margin-left: 0;}
   }
+
+  @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
   .hide{
     display: none;
