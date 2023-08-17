@@ -2,7 +2,7 @@ const screen1 = document.querySelector(".screen1")
 const screen2 = document.querySelector(".screen2")
 const biscoitoFechado = document.querySelector(".imgBiscoito")
 const btnReset = document.querySelector("#btnReset")
-let frases = ['Café é sem açucar!', 'Você Dorme muito!', 'Ordinária','Vai dormir!!', 'Camarão que dorme a onda leva', 'Você está gordo!!','Vai estudar Meninoo']
+let frases = ['Café é sem açucar!', 'Você Dorme muito!', 'Ordinária','Vai pedalar!!', 'Camarão que dorme a onda leva', 'Você está gordo!!','Vai estudar Meninoo']
 let  randomNumber = Math.ceil(Math.random()* 5)
 
 biscoitoFechado.addEventListener('click',handleTryClick)
